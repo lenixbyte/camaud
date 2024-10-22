@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+.ropeproject
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Project specific
+output_video.mp4
+*.mp4
+*.wav
+*.aiff
+temp_*
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Credentials and secrets
+*.pem
+*.key
+*.crt
+*.cer
+camaud-3b54e70b3273.json
+
+# Dependency management
+Pipfile.lock
+
+# Miscellaneous
+.cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
