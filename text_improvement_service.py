@@ -1,12 +1,15 @@
 import openai
 import json
+from dotenv import load_dotenv
+import os
 
 class TextImprovementService:
     def __init__(self):
-        openai.api_type = "azure"
-        openai.api_base = "https://internshala.openai.azure.com/"
-        openai.api_version = "2024-08-01-preview"
-        openai.api_key = "22ec84421ec24230a3638d1b51e3a7dc"
+        load_dotenv()  # Load environment variables from .env file
+        openai.api_type = os.getenv("OPENAI_API_TYPE")
+        openai.api_base = os.getenv("OPENAI_API_BASE")
+        openai.api_version = os.getenv("OPENAI_API_VERSION")
+        openai.api_key = os.getenv("OPENAI_API_KEY")
 
     def improve(self, words_with_timestamps):
         # Convert the list to a JSON string for easier processing

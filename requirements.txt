@@ -6,7 +6,8 @@ whisper==1.1.10
 torch==2.2.0
 SpeechRecognition==3.10.0
 numpy==1.26.4
-
+python-dotenv==1.0.0
+openai-whisper==1.1.10
 
 
 
